@@ -1,0 +1,299 @@
+.fortitle{
+	text-align: center;
+	font-family: arial;
+	font-size: 32px;
+	padding-top: 15px;
+	color: green;
+}
+.social-logo{
+	display: inline-flex;
+}
+
+ .logo{
+	width:50px; 
+	height:50px;
+	float: right;
+}
+.container {                                               /*pagination css*/
+	margin: 0px auto 0px auto;
+	width: 1200px;
+	background-color: #e3e3e3;
+}
+.social-logo{    
+    padding: 5px;                                          /*social link logo*/
+	float: right;
+}
+.clearfix{
+/*background-color: pink;*//*if you want to add colour in header so by you can do this */
+}
+.square{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.topnav {
+	display:flex;
+}
+.abc{
+	text-decoration:none;
+}
+.topnav .contact{	 
+   text-align: center;
+   font-family: arial;
+   font-size: 18px;
+   padding-top: 35px;
+   padding-left: 150px;
+}
+.topnav a{                         /*decoration remove from nav bar*/
+    text-decoration: none;
+}
+.image0{  
+	padding:5px;
+	height:100px;
+	width:100px;
+
+}
+.image1{
+	width:1190px;
+	height:500px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;	
+}
+
+.main > div{
+    margin: 0;
+    padding: 0;
+	width: 50%
+}
+
+.desciption-image{
+	text-align: center;
+	font-family: Arial;
+}
+.offrecord{
+    margin-top: 5px;
+	display:inline-block;
+	text-align: center;
+}
+.offrecord1
+{
+	float: left;
+    display: flex;
+    flex-direction: column;         
+ /* background-color: green;*/
+    width: 30%;
+}
+.offrecord1 h2 {
+	padding-right: 5px;
+	font-family: arial;
+}
+.offrecord1  a{
+    text-decoration :none;
+    color: #696969;
+}
+
+div.gallery img{
+    width:100%;
+    height:auto;
+}
+.offrecord1 > div {
+	margin: 5px;
+   /* background-color: red;*/
+    width: auto;
+    height:auto; 
+}
+.link-inside-offrecord1{
+	width: 100% ;
+	height: auto;
+}
+.offrecord2{
+	padding-right: 10px;  /*//paddiing will work with 69 % width*/
+	display: inline-flex;
+    flex-direction: column; 
+	/*background-color: yellow;*/
+	text-align: justify; /*//otherwise take align left*/
+	float: right;
+	font-size:1.5em;
+	width: 69%;
+	font-family: arial;
+}
+.offrecord2 > div{
+width: 100%;
+margin: 5px;
+/*background-color: #f1f1f1;*/
+}
+.footer
+{
+padding-left: 5px;
+display: inline-flex; 
+font-size: 1.5em;
+font-family: arial;
+}
+
+@media screen and (max-width: 500px){
+    .container {
+    	background-color: green;
+        max-width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+       
+    }
+   .social-logo img{
+    max-width: 100%;
+    height: 50px;
+    width: 50px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding: 34px;
+}
+   .clearfix{
+   	clear: both;
+   }
+
+
+ .fortitle {
+    clear: both;
+    max-width: 100%;
+    color: #00529c;
+    font-size: 24px;
+    font-family: arial;
+    padding-top: 29px;
+}
+
+.image-logo-logo img {
+    width: 196px;
+    height: 200px;
+    padding: 0em;
+    padding-left: 83px;
+    height: 100px ;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+.topnav {
+    width: 100%;
+    display: grid;
+    font-family: arial;
+    margin-top: 16px;
+    font-size: 6px;
+    margin-left: -29px;
+}
+.contact {
+    max-width: 100%;
+    display: inline-flex;
+ 
+}
+.contact a {
+	padding: 5px;
+    font-size: 24px;
+    color: white;
+}
+.square img{
+	max-width: 100%;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px
+	
+	height: 200px;
+}
+.bannerdescription a{
+
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	opacity: .9;
+}
+.bannerdescription{
+color: #00529c;
+		font-family: arial;
+		font-size: 16px;
+}
+.bannerset{
+	margin-top: 15px;
+	width: 100%;
+	font-family: arial;
+	font-size: 16px;
+	color: #00529c;
+	padding: 5px;
+}
+.ABOUT-US{
+	width: 100%;
+	padding:15px;
+	color: white;
+	font-family: arial;
+	font-size: 24px;
+	text-align: center;
+}
+.offrecord1{
+ width: 100%;
+
+}
+.offrecord1 a{
+
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+}
+.offrecord1 h2{
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+}
+
+
+.offrecord2{
+	width: 97%;
+	padding-right: 10px;
+	padding-left :10px;
+	font-size: 16px;
+font-family: arial;
+color: #00529c;
+	
+}
+.main{
+	width: 100%;
+}
+
+.gallery1 > div{
+	width: 50%;
+	
+}
+
+.main > div {
+    margin: 0;
+    padding: 15px;
+    width: 50%;
+}
+.imege-id2{
+	display: inline;
+}
+
+.imege-id2 img{
+height: 150px;
+width: 150px;
+}
+.gallery1 > div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+ .copyright img{
+ 	height: 20px;
+ 	width: 20px; 
+
+ }
+
+.footer-para{
+	background-color: #00CED1;
+                  color: white;
+                  font-family: arial;
+                  font-size: 16px;
+                  display: inline;
+ }
+
+}
