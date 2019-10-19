@@ -1,149 +1,179 @@
-.fortitle{
-	text-align: center;
-	font-family: arial;
-	font-size: 32px;
-	padding-top: 15px;
-	color: green;
-}
-.social-logo{
-	display: inline-flex;
-}
 
- .logo{
-	width:50px; 
-	height:50px;
-	float: right;
-}
 .container {                                               /*pagination css*/
 	margin: 0px auto 0px auto;
 	width: 1200px;
 	background-color: #e3e3e3;
 }
-.social-logo{    
-    padding: 5px;                                          /*social link logo*/
+
+.social-media-images img{
+	width: 50px;
+	height: 50px;
+	padding: 5px;  
 	float: right;
 }
-.clearfix{
-/*background-color: pink;*//*if you want to add colour in header so by you can do this */
+
+.social-logo a{
+	text-decoration: none;
+
 }
-.square{
-	padding-right: 5px;
-	padding-left: 5px;
+
+
+.social-logo img{
+      height: 50px;
+      width: 50px;
+	
 }
-.topnav {
-	display:flex;
+.image-logo-logo{
+float: left;
+
 }
-.abc{
-	text-decoration:none;
+
+.image-logo-logo img{
+		
+    width: 150px;
+    height: 150px;
+     padding: 15px;
+  
 }
-.topnav .contact{	 
-   text-align: center;
-   font-family: arial;
-   font-size: 18px;
-   padding-top: 35px;
-   padding-left: 150px;
+
+.fortitle {
+   
+    text-align: center;
+    font-family: arial;
+    font-size: 32px;
+    padding-top: 37px;
+    color: green;
 }
-.topnav a{                         /*decoration remove from nav bar*/
+.topnav a{                      
     text-decoration: none;
 }
-.image0{  
-	padding:5px;
-	height:100px;
-	width:100px;
 
+.contact {
+    padding: 4em;
+    display: inline-block;
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    color: #00529c;
+   
 }
-.image1{
-	width:1190px;
-	height:500px;
-}
-
-.main {
-    display: flex;
-    flex-direction: row;	
-}
-
-.main > div{
-    margin: 0;
-    padding: 0;
-	width: 50%
-}
-
-.desciption-image{
-	text-align: center;
-	font-family: Arial;
-}
-.offrecord{
-    margin-top: 5px;
-	display:inline-block;
-	text-align: center;
-}
-.offrecord1
-{
-	float: left;
-    display: flex;
-    flex-direction: column;         
- /* background-color: green;*/
-    width: 30%;
-}
-.offrecord1 h2 {
-	padding-right: 5px;
+.bannerset{
 	font-family: arial;
+    font-size: 16px;
+    color: green;
+    padding: 5px;
 }
-.offrecord1  a{
-    text-decoration :none;
-    color: #696969;
+.ABOUT-US{
+	text-align: center;font-family: arial;font-size: 18px;padding: 15px;color: #00529c;
 }
 
-div.gallery img{
-    width:100%;
-    height:auto;
+.bannerdescription{
+	padding: 5px;
+        color: #00529c;
+		font-family: arial;
+		font-size: 16px;
 }
-.offrecord1 > div {
-	margin: 5px;
-   /* background-color: red;*/
-    width: auto;
-    height:auto; 
+.bannerdescription a{
+	text-decoration: none;
+color: #00529c;
+		font-family: arial;
+		font-size: 16px;
 }
-.link-inside-offrecord1{
-	width: 100% ;
+.square img{
+margin: 0;
+padding: 0;
+	width: 1200px;
 	height: auto;
 }
-.offrecord2{
-	padding-right: 10px;  /*//paddiing will work with 69 % width*/
-	display: inline-flex;
-    flex-direction: column; 
-	/*background-color: yellow;*/
-	text-align: justify; /*//otherwise take align left*/
-	float: right;
-	font-size:1.5em;
-	width: 69%;
+.product-header{
+
+	padding: 40px;
 	font-family: arial;
+	font-size: 20px;
+	color: #00529c;
+	text-align: center;
 }
-.offrecord2 > div{
-width: 100%;
-margin: 5px;
-/*background-color: #f1f1f1;*/
+.offrecord1{
+	width: 30%;
+	float: left;
+
 }
-.footer
-{
-padding-left: 5px;
-display: inline-flex; 
-font-size: 1.5em;
-font-family: arial;
+.bannerdescription a {
+    text-decoration: none;
+    color: green;
+    font-family: arial;
+    font-size: 16px;
+}
+.offrecord1 img {
+    padding: 5px;
+   height: auto;
+    width: 218px;
+}
+.offrecord1 a{
+	text-decoration: none;
+}
+.parahraph-center{
+	padding-left:5px;
+	font-family: arial;
+	font-size: 16px;
+}
+.offrecord2{
+	float: right;
+	width: 70%;
+}
+.offrecord21{
+	padding: 15px;
+	font-family: arial;
+	font-size: 16px;
+	color: #00529c;
+}
+.main{
+	clear: both;
+	padding-top: 30px;
+	padding-right: 5px;
+	padding-bottom: 30px;
+	padding-left: 5px;
+
 }
 
-@media screen and (max-width: 500px){
-    .container {
-    	background-color: white;
+div.gallery {
+ display: inline-block;
+      width: 24%;
+}
+div.gallery img {
+    padding: 18px;
+    width: 100%;
+    height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.footer{
+	padding-left: 30em;
+}/*
+--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 500px)
+{
+  
+ .container {
+    	background-color: #ffcccc;
         max-width: 100%;
         margin-top: 0px;
         margin-right: 0px;
        
     }
-   .social-logo img{
-    max-width: 100%;
-    height: 50px;
-    width: 50px;
+   .social-media-images {
+    width: 100%;
+    padding-left: 68px;
+}
+.social-media-images img{
+	
+	padding: 5px;  
+	float: none;
+	padding-left:15px; 
 }
 .logo {
     width: 50px;
@@ -164,6 +194,15 @@ font-family: arial;
     font-family: arial;
     padding-top: 29px;
 }
+.ABOUT-US {
+    width: 100%;
+   
+    color: white;
+    font-family: arial;
+    font-size: 24px;
+    text-align: center;
+}
+
 
 .image-logo-logo img {
     width: 196px;
@@ -182,11 +221,10 @@ font-family: arial;
     margin-top: 16px;
     font-size: 6px;
     margin-left: -29px;
-}
-.contact {
+}.contact {
+    padding: 20px;
     max-width: 100%;
-    display: inline-flex;
- 
+   
 }
 .contact a {
 	padding: 5px;
@@ -202,6 +240,22 @@ font-family: arial;
 	
 	height: 200px;
 }
+
+.imageinsider img{
+	margin-left: 0;
+	padding: 0;
+padding-top: 5px;
+	width: 100%;
+}
+.parahraph-center{
+	width: 100%;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
 .bannerdescription a{
 
 	text-decoration: none;
@@ -222,14 +276,17 @@ color: #00529c;
 	color: #00529c;
 	padding: 5px;
 }
-.ABOUT-US{
+.gallery{
+	padding: 0;
+	margin: 0;
 	width: 100%;
-	padding:15px;
-	color: white;
-	font-family: arial;
-	font-size: 24px;
-	text-align: center;
 }
+div.gallery img{
+	padding: 0
+	padding: 0;
+	margin: 0;
+}
+
 .offrecord1{
  width: 100%;
 
@@ -256,44 +313,48 @@ font-family: arial;
 color: #00529c;
 	
 }
-.main{
+.gallery {
+    max-width: 100%;
+    padding: 20px;
+    /* padding: 28px; */
+}
+
+div.gallery img{
+	padding-left: 15px;
+	width: 120px;
+	height: auto;
+}
+.footer{
 	width: 100%;
-}
-
-.gallery1 > div{
-	width: 50%;
-	
-}
-
-.main > div {
-    margin: 0;
-    padding: 15px;
-    width: 50%;
-}
-.imege-id2{
-	display: inline;
-}
-
-.imege-id2 img{
-height: 150px;
-width: 150px;
-}
-.gallery1 > div {
-    padding-top: 15px;
-    padding-bottom: 15px;
- }
- .copyright img{
- 	height: 20px;
- 	width: 20px; 
-
- }
-
-.footer-para{
 	background-color: #00CED1;
-                  color: white;
-                  font-family: arial;
-                  font-size: 16px;
-                  display: inline;
+  font-family: arial;
+  font-size: 16px;
+  display: inline;
  }
+ .lastend{
+ 	color: white;
+ 	width: 100%;
+ 	font-family: arial;
+  font-size: 16px;
+  display: inline;
+ }
+
+.desc{
+color: #00529c;
+}
+.footer {
+    width: 100%;
+    margin-left: 41px;
+    padding-left: 5px;
+    padding-top: 15px;
+    font-family: arial;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+
+
+
 
 }
